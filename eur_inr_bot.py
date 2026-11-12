@@ -2,7 +2,7 @@ import os
 import requests
 
 # Read secrets from GitHub Actions environment variables
-TELEGRAM_TOKEN = os.environ.get("8915784825:AAEYCYTD2US8YIEZ8f_dZZDDBpAkmkaIGIQ")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID")
 
 def get_eur_inr_rate():
